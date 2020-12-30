@@ -1,5 +1,10 @@
 /*
-Knowing the money of all the friends,we can get all the substrings that belongs with the rules, "the difference between the maximum and minimum (in terms of money) should be less then the maximum given, for that we can sort the friends in ascend order, and do the search, in this case i use the two pointer technique to find the limits of the friends that accomplish this request, starting with left pointer in 0 and the right one to,and the maximum sum of the value of friendship comparing the sums of all the element in [left, right] are less then the "d" limits,if accomplish then we can increment the right pointer and check if this subarray is the maximum, otherwise increment the left pointer, this works because, while we can move the right the left are in the limits if not then we need to move the limits, this algorithm runs in O(n ln n) because it needs to sort.
+Knowing the money of all the friends,we can get all the subarray that belongs with the rules, "the difference between the maximum and minimum (in terms of money) 
+should be less then the maximum given, for that we can sort the friends in ascend order, and do the search, in this case i use the two pointer technique to find 
+the limits of the friends that accomplish this request, starting with left pointer in 0 and the right one to,and the maximum sum of the value of friendship 
+comparing the sums of all the element in [left, right] are less then the "d" limits,if accomplish then we can increment the right pointer and check if this 
+subarray is the maximum, otherwise increment the left pointer, this works because, while we can move the right the left are in the limits if not then we need 
+to move the limits, this algorithm runs in O(n ln n) because it needs to sort.
 
 */
 
